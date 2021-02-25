@@ -1,0 +1,26 @@
+{
+  "name": "discord-ambience",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@descript/web-audio-js": "^0.15.3",
+    "@discordjs/opus": "^0.4.0",
+    "bufferutil": "^4.0.3",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "easy-ffmpeg": "0.0.15",
+    "erlpack": "github:discord/erlpack",
+    "fs-extra": "^9.1.0",
+    "libsodium-wrappers": "^0.7.9",
+    "utf-8-validate": "^5.0.4",
+    "uuid": "^8.3.2",
+    "web-audio-api": "^0.2.2",
+    "zlib-sync": "^0.1.7"
+  }
+}

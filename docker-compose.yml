@@ -1,0 +1,11 @@
+version: '3'
+services:
+  bot:
+    container_name: 'ambience-bot'
+    build: ./
+    restart: unless-stopped
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    env_file: 
+      - .env
